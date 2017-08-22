@@ -7,7 +7,7 @@
   padding: 10px 30px 10px 10px;
   border-radius: 0 5px 0 0;
   &:hover { text-decoration: none; }
-  &:after {
+  &:not(.not-expandable):after {
     content: "";
     width: 16px;
     height: 16px;

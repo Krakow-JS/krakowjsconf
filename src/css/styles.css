@@ -2023,7 +2023,7 @@ input.field {
   border-radius: 0 5px 0 0; }
   .event-schedule-title:hover {
     text-decoration: none; }
-  .event-schedule-title:after {
+  .event-schedule-title:not(.not-expandable):after {
     content: "";
     width: 16px;
     height: 16px;
