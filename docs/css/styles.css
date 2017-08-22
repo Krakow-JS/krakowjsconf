@@ -1825,7 +1825,7 @@ input.field {
 .banner {
   background-color: #2dc7c1;
   color: #fff;
-  background: url(img/background.png); }
+  background: url(../img/background.png); }
 
 .banner-heading {
   text-transform: uppercase;
