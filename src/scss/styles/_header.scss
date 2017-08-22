@@ -1,0 +1,35 @@
+// Branding
+#logo {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Bungee', cursive;
+  color: white;
+  font-size: 90px;
+  margin-bottom: 90px;
+}
+
+
+// Banner
+.banner {
+  background-color: #2dc7c1;
+  color: $white;
+  background: url(/img/background.png)
+}
+.banner-heading {
+  @extend .h-white;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: .7em 0;
+}
+.banner-buttons {
+  margin-top: 40px;
+  .button {
+    display: block;
+    margin-top: 10px;
+    @include breakpoint(m) {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+}
