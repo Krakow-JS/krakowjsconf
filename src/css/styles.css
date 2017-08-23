@@ -1819,13 +1819,27 @@ input.field {
   margin-right: auto;
   font-family: 'Bungee', cursive;
   color: white;
-  font-size: 90px;
-  margin-bottom: 90px; }
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 10px; }
+
+@media all and (min-width: 520px) {
+  #logo {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 30px; } }
+
+@media all and (min-width: 800px) {
+  #logo {
+    font-size: 90px;
+    line-height: 100px;
+    margin-bottom: 90px; } }
 
 .banner {
   background-color: #2dc7c1;
   color: #fff;
-  background: url(../img/background.png); }
+  background: url(../img/background.png);
+  background-size: cover; }
 
 .banner-heading {
   text-transform: uppercase;
@@ -2061,6 +2075,9 @@ input.field {
   border: 0;
   margin: 0;
   padding: 0; }
+
+.register-title {
+  color: #f53a37; }
 
 .event-sponsor-list {
   list-style: none;

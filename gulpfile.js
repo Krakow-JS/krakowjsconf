@@ -84,10 +84,20 @@ gulp.task('clean', function() {
   del('docs');
 });
 
+// Copy sponsorhips
+gulp.task('sponsorships', function () {
+  return gulp.src(['./src/img/sponsorship/**/*']).pipe(gulp.dest('./docs/img/sponsorship'));
+})
+
+// Copy CNAME
+gulp.task('cname', function () {
+  return gulp.src(['./src/CNAME']).pipe(gulp.dest('./docs'));
+})
+
 // Gulp Default Task
 gulp.task('default', ['watch']);
 
 // Gulp Build Task
 gulp.task('build', function() {
-  runSequence('clean', 'sass', 'imagemin', 'jsmin', 'inlinesource');
+  runSequence('clean', 'sass', 'cname', 'imagemin', 'jsmin', 'inlinesource', 'sponsorships');
 });
