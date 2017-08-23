@@ -2086,7 +2086,8 @@ input.field {
   .event-sponsor-list li {
     display: inline-block;
     margin-left: 1em;
-    margin-right: 1em; }
+    margin-right: 1em;
+    vertical-align: middle; }
 
 .sponsor {
   height: 40px;
