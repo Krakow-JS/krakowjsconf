@@ -1965,6 +1965,9 @@ input.field {
   background-color: #ccc;
   border-radius: 100%;
   position: relative; }
+  .empty-speaker img, .event-speaker img {
+    max-width: 144px;
+    max-height: 144px; }
   .empty-speaker:before, .empty-speaker:after, .event-speaker:before, .event-speaker:after {
     content: "";
     position: absolute;

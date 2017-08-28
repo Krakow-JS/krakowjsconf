@@ -20,6 +20,11 @@
   border-radius: 100%;
   position: relative;
 
+  img {
+    max-width: 144px;
+    max-height: 144px;
+  }
+
   &:before, &:after {
     content: "";
     position: absolute;
