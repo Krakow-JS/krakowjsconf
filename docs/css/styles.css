@@ -2075,7 +2075,10 @@ input.field {
       position: absolute;
       top: 50%;
       right: 10px;
-      margin-top: -8px; } }
+      margin-top: -8px; }
+  .event-schedule-name {
+    margin-top: auto;
+    margin-bottom: auto; } }
 
 .event-schedule-time {
   display: inline-block;
@@ -2094,7 +2097,8 @@ input.field {
   vertical-align: middle;
   text-transform: uppercase;
   color: #828282;
-  margin-right: 16px; }
+  margin-right: 16px;
+  margin-top: 5px; }
 
 .register-form {
   background-color: #fff;

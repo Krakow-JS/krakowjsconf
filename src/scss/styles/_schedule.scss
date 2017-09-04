@@ -41,6 +41,11 @@
       margin-top: -8px;
     }
   }
+
+  .event-schedule-name {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 .event-schedule-time {
@@ -62,4 +67,5 @@
   text-transform: uppercase;
   color: $copy-grey;
   margin-right: 16px;
+  margin-top: 5px;
 }
