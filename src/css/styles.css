@@ -1842,6 +1842,14 @@ input.field {
   background: url(../img/background.png);
   background-size: cover; }
 
+.banner-spring {
+  background-color: #2dc7c1;
+  color: #333;
+  background: url(../img/background-spring.jpeg);
+  background-size: cover; }
+  .banner-spring .banner-heading, .banner-spring #logo {
+    color: #333; }
+
 .banner-heading {
   text-transform: uppercase;
   font-weight: 700;
