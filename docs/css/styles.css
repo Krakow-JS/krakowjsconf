@@ -2165,6 +2165,10 @@ input.field {
   width: 220px;
   max-height: initial; }
 
+.partner-lambda-days img {
+  width: 180px;
+  max-height: initial; }
+
 .event-location-block {
   background: #000;
   padding-bottom: 0; }
